@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .gridItem {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
